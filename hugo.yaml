@@ -17,6 +17,14 @@ url_latest_version: https://cardboard-companion.com
 github_repo: https://github.com/tressims/cardboard-companion
 github_branch: main
 
+markup:
+  goldmark:
+    parser:
+      attribue:
+        block: true
+    renderer:
+      unsafe: true
+
 module:
   hugoVersion:
     extended: true
