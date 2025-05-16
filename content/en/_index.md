@@ -20,7 +20,7 @@ it's actually a pretty *narrowly defined* bot that can do **two things**  really
 {{% /blocks/lead %}}
 
 {{% blocks/section color="dark" type="row"  %}}
-{{% blocks/feature icon="fa-square-poll-horizontal" title="Send a format poll" url="/docs/format" %}}
+{{% blocks/feature icon="fa-square-poll-horizontal" title="Send a format poll" url="/docs/commands/format" %}}
 
 Decide what you'll play in style!
 {{% /blocks/feature %}}
@@ -29,7 +29,7 @@ Decide what you'll play in style!
 Already know when you'll play? Poll Format away!
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fa-circle-question" title="Spin The Wheel Of Mystery!" url="/docs/wheel" %}}
+{{% blocks/feature icon="fa-circle-question" title="Spin The Wheel Of Mystery!" url="/docs/commands/wheel" %}}
 How will you spice up your magic EDH gameplay?
 {{% /blocks/feature %}}
 
