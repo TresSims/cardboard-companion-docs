@@ -17,6 +17,8 @@ services:
     image: ghcr.io/tressims/cardboard-companion:latest
     volumes:
       - ./cardboard-companion:/code/cardboard-companion.yml
+    environment:
+      - TZ=America/New_York # Helpful if you are scheduling cron-jobs
 ```
 
 The `cardboard-companion.yml` file contains the following minimal structure:
